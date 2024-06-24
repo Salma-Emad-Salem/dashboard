@@ -2,8 +2,7 @@
   "name": "react-dashboard",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Salma-Emad-Salem/dashboard"
-  "main": "main.tsx",
+  "main": "index.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
