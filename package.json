@@ -2,11 +2,13 @@
   "name": "react-dashboard",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/Salma-Emad-Salem/dashboard"
   "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
