@@ -1,0 +1,36 @@
+@import '../../styles/responsive.scss';
+img{
+    margin-block: 10px;
+}
+.Products{
+    .info{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+        h1{
+            @include sm{
+                font-size: 28px;
+            }
+        }
+        button{
+            width: 180px;
+            height: 60px;
+            font-size: 18px;
+            border-radius: 20px;
+            padding: 15px;
+            background-color: #f45b69;
+            color: white;
+            border: none;
+            cursor: pointer;
+            @include sm{
+                width: 100px !important;
+                height: 40px;
+                font-size: 14px;
+                padding: 0px;
+            }
+    
+        }
+
+    }
+}

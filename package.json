@@ -1,0 +1,31 @@
+{
+  "name": "react-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.20",
+    "@mui/x-data-grid": "^7.7.1",
+    "@tanstack/react-query": "^5.45.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.23.1",
+    "recharts": "^2.12.7",
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "vite": "^3.0.0"
+  }
+}

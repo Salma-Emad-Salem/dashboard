@@ -1,0 +1,58 @@
+@import '../../styles/responsive.scss';
+.dataTable{
+    width: 80vw !important;
+    overflow-x: clip !important;
+    .dataGrid{
+        width: 100% !important;
+        background-color: white;
+        padding: 20px;
+        @include sm{
+            padding: 5px !important;
+        }
+        .MuiDataGrid-toolbarContainer{
+            flex-direction: row-reverse;
+            @include sm{
+                justify-content: space-between;
+            }
+
+        }
+        .DataGrid-columnsTotalWidth{
+            width: 100% !important;
+        }
+        .MuiDataGrid-columnHeaderTitleContainer{
+            justify-content: center;
+
+        }
+        .MuiDataGrid-cell{
+            text-align: center !important;
+            @include sm{
+                text-align: left !important;
+            }
+        }
+
+        img{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+
+        }
+        .action{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 15px;
+            @include sm{
+                gap: 5px;
+            }
+            img{
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+            
+        }
+    }
+}
+
+          
