@@ -2,11 +2,12 @@
   "name": "react-dashboard",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
