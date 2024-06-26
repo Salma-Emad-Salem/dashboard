@@ -2,7 +2,6 @@
 
 .single {
   display: flex;
-
   @include xl{
     flex-direction: column;
     gap: 50px;
@@ -10,12 +9,15 @@
 
   .view {
     flex: 1;
-
     .info {
       .topInfo {
         display: flex;
         align-items: center;
         gap: 20px;
+        @include sm{
+          flex-direction: column;
+          justify-content: center;
+        }
 
         img {
           width: 100px;
@@ -26,6 +28,9 @@
 
         h1 {
           font-weight: 500;
+          @include sm{
+            font-size: 32px;
+          }
         }
         button{
             width: 180px;

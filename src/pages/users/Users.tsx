@@ -77,7 +77,7 @@ const User = () => {
         <button onClick={()=>setOpen(true)}>Add New User</button>
       </div>
    
-      {isLoading ?("Loading..."):(<Datatable slug="users" columns={columns} rows={data}/>)}
+      {isLoading ?("data is loading from api , just note."):(<Datatable slug="users" columns={columns} rows={data}/>)}
       {open && <Add slug='user' columns={columns} setOpen={setOpen}/>}
     </div>
   )

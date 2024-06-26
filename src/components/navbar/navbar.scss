@@ -5,6 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow-x: hidden !important;
+    @include sm{
+        padding: 10px;
+        overflow-x: clip;
+    }
     .logo{
         display: flex;
         align-items: center;

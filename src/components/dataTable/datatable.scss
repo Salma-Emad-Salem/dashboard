@@ -2,6 +2,9 @@
 .dataTable{
     width: 80vw !important;
     overflow-x: clip !important;
+    @include sm{
+        max-width: 390px;
+      }
     .dataGrid{
         width: 100% !important;
         background-color: white;
@@ -12,7 +15,7 @@
         .MuiDataGrid-toolbarContainer{
             flex-direction: row-reverse;
             @include sm{
-                justify-content: space-between;
+                flex-direction: row;
             }
 
         }

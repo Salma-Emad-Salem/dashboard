@@ -1,13 +1,16 @@
 @import './varibales.scss';
 @import './responsive.scss';
 html{
-  overflow-x: hidden;
   scroll-behavior: smooth;
   overflow-x:clip !important;
 }
 body{
   overflow-x:clip !important;
   width: 100vw;
+  #root{
+    width: 100vw;
+    overflow-x: clip !important;
+  }
 }
 * {
   margin: 0;
@@ -35,7 +38,17 @@ a {
   @include lg{
     width: max-content;
 }
+@include sm{
+  padding: 5px;
+
+}
+
 }
 .contentContainer{
   padding: 5px 20px;
+  @include sm{
+    padding: 5px;
+    overflow-x: clip;
+  
+  }
 }
