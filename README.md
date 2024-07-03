@@ -1,2 +1,2 @@
 # dashboard
-demo Link : https://dashboard-by-salma.netlify.app/
+demo Link :https://dashboard-salma.netlify.app
